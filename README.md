@@ -1,6 +1,9 @@
 # AutoCompleteWidget
 
-Widget Demonstration
+
+Widget Usage
+- Portable widget which accepts any list of objects and will allow
+for either single select autocomplete filtering or multiSelect autocomplete filtering.
 
 Parameters for Widget
 - myList -> List which will be filtered and selected through auto complete
