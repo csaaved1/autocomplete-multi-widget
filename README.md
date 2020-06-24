@@ -14,4 +14,9 @@ this.searchCategory,
 [this.multiSelect = false]);
 ```
 
-![](ezgif.com-video-to-gif.gif)
+MultiSelect also has a clear all functionality on the top right.
+
+
+Some open issues are overwriting a previously fetched set from multiSelect.
+If multiSelect is reused it will overwrite the old value that was previously there.
+
