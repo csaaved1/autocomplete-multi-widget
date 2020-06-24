@@ -1,0 +1,2 @@
+# autocomplete-multi-widget
+ EnhancedAutocompleteWidget
