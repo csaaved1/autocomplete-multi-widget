@@ -1,16 +1,17 @@
 # AutoCompleteWidget
 
-A new Flutter project.
+Widget Demonstration
 
-## Getting Started
+Parameters for Widget
+- myList -> List which will be filtered and selected through auto complete
+expecting a List of objects
+- searchCategory-> Which field of the object will we be searching by? In the example we used name of person.
+- multiSelect -> set automatically to false, which will then be a single select and will return one and only one object on click, otherwise multiSelect will 
+be used on set true
+```
+const AutoCompleteWidget(this.myList,
+this.searchCategory,
+[this.multiSelect = false]);
+```
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![](ezgif.com-video-to-gif.gif)
