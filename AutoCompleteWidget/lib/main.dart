@@ -40,6 +40,8 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
     super.initState();
 
+    checkDuplicates();
+
 
   }
 
@@ -51,6 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
     bufferList.add(Person('Bob', 29, true));
     bufferList.add(Person('Kate', 21, true));
     bufferList.add(Person('Tom', 54, false));
+    bufferList.add(Person('Jerry', 12,false));
 
     return Scaffold(
       appBar: AppBar(
@@ -93,6 +96,13 @@ class _MyHomePageState extends State<MyHomePage> {
     print('RESULT(S) RECIEVED');
     print(result);
     // after the SecondScreen result comes back update the Text widget with it
+  }
+
+  void checkDuplicates() {
+
+
+
+
   }
 }
 
