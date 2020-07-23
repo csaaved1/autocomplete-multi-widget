@@ -55,6 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
     bufferList.add(Person('Tom', 54, false));
     bufferList.add(Person('Jerry', 12,false));
     bufferList.add(Person('Bobby', 12,false));
+    bufferList.add(Person('Lenny', 30, true));
 
     return Scaffold(
       appBar: AppBar(
